@@ -28,4 +28,4 @@ When the patches started to have continous chain of reaching the threshold, thos
 (models in the NetLogo Models Library and elsewhere which are of related interest)
 
 # CREDITS AND REFERENCES
-This model is our groups attempt to code the sandpile model using the netlogo application.
+(a reference to the model's URL on the web if it has one, as well as any other necessary credits, citations, and links)
