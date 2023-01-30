@@ -1,9 +1,9 @@
 # Sandpile-Model
 # WHAT IS IT?
-This model is our groups attempt to code the sandpile model using the netlogo application.
+This model is our groups attempt to code the sandpile model using the netlogo application. Our sandpile model starts with each patch having random values ranging from 1 to 3. The user is then allowed to choose whether to drop a sandgrain either on a random patch or on the center. As a result, that patch will have it's value incremented by 1. If a patch's value becomes 4, that patch will relax which will turn its value to 0 and it will redistribute 1 sandgrain to its (Von Neumann) neighbors. The relaxation and distribution will continue for each tick until there are no patches with values greater than 3.
 
 # HOW IT WORKS
-(what rules the agents use to create the overall behavior of the model)
+Patches that have a value of 4 will relax (turn its value to 0) then it will redistribute 1 sandgrain to its (Von Neumann) neighbors. Simulating how sands create avalanches when a certain area of it has more sand grain than it can accommodate.
 
 # HOW TO USE IT
 Click the setup button to set up the sandpile with random values.
